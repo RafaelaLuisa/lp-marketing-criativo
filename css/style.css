@@ -72,6 +72,11 @@ main {
     font-weight: bold;
   }
 
+form{
+  display: flex;
+  flex-direction: column;
+}
+
   form [ type="submit"]:hover{
     cursor: pointer;
   }
@@ -86,3 +91,6 @@ main {
     display: block;
     
   }
+*{
+  font-family: 'Poppins', sans-serif;
+}
